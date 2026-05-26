@@ -1,0 +1,35 @@
+{
+  "name": "architectural-experience",
+  "version": "1.0.0",
+  "description": "Cinematic immersive architectural WebGL experience",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "next": "^14.1.0",
+    "three": "^r158",
+    "@react-three/fiber": "^8.15.0",
+    "@react-three/drei": "^9.102.0",
+    "@react-three/postprocessing": "^2.15.0",
+    "gsap": "^3.12.2",
+    "framer-motion": "^10.16.16",
+    "react-lenis": "^0.10.5",
+    "postprocessing": "^6.34.0",
+    "zustand": "^4.4.7",
+    "clsx": "^2.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@types/node": "^20.10.0",
+    "@types/three": "^r158"
+  }
+}
